@@ -1,0 +1,980 @@
+{
+  "users": [
+    {
+      "name": "dffgd",
+      "dob": "2000-02-19",
+      "gender": "male",
+      "email": "admin@eshop.com",
+      "password": "Admin@123",
+      "role": "admin",
+      "question": "dog",
+      "answer": "bruno",
+      "id": "Pwa4dfCmDik",
+      "address": ""
+    },
+    {
+      "name": "Harsakrishna",
+      "dob": "2008-02-19",
+      "gender": "male",
+      "address": "flat-12,Dev Apartment,23/11 malaviya avenue,thiruvanmiyur chennai-600041",
+      "email": "harsa@gmail.com",
+      "password": "Harsa@123",
+      "role": "user",
+      "question": "college",
+      "answer": "eec",
+      "id": "pQPVQFiACYA",
+      "phone": "9502334222"
+    },
+    {
+      "name": "Krishna",
+      "dob": "2008-02-19",
+      "gender": "male",
+      "address": "flat-12,Dev Apartment,23/11 malaviya avenue,thiruvanmiyur chennai-600041",
+      "email": "emp@eshop.com",
+      "password": "Emp@123",
+      "role": "employee",
+      "employeeId": "EMP123",
+      "question": "work",
+      "answer": "eshop",
+      "id": "-Wnx82K3vLI",
+      "salary": 60000
+    },
+    {
+      "name": "Krishna V",
+      "dob": "2008-03-03",
+      "gender": "male",
+      "address": "flat-7, dakshin apartment, 23/11 malaviya avenue, thiruvanmiyur,chennai-600041",
+      "email": "krishna@gmail.com",
+      "password": "Krishna@123",
+      "role": "user",
+      "question": "apartment",
+      "answer": "dakshin",
+      "id": "yLlDnLuDlVo"
+    },
+    {
+      "name": "Ashwandh",
+      "dob": "2006-07-26",
+      "gender": "male",
+      "address": "flat-12, dev apartment,kjsdnfnsdfsdfdsf",
+      "email": "ashwandh@gmail.com",
+      "password": "Ash@123",
+      "role": "user",
+      "question": "college",
+      "answer": "eec",
+      "id": "C96oF1nqKtA"
+    },
+    {
+      "name": "jsdbdbfsd",
+      "dob": "2006-02-11",
+      "gender": "male",
+      "address": "uushudsfhuafs,chennai-600041",
+      "email": "emp2@eshop.com",
+      "phone": "7676666777",
+      "password": "Emp@123",
+      "role": "employee",
+      "question": "sdsfsafdaad",
+      "answer": "addfadffdaafds",
+      "id": "qjjRC7XtiCI"
+    }
+  ],
+  "products": [
+    {
+      "name": "Gaming laptop",
+      "price": 90000,
+      "category": "laptop",
+      "specs": "Processor (CPU): Intel Core Ultra 7 255H (Up to 5.1GHz, 16 cores)Graphics (GPU): NVIDIA GeForce RTX 4060 (8GB GDDR6 VRAM, 140W max TGP with DLSS 3)Memory (RAM): 16GB DDR5-5600MHz (Dual-channel)Storage: 1TB PCIe Gen 4 NVMe SSD",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeJ-mLspi_Os_C_vj4cdHAEur9oxGbCk16EfGMS1RBAQ&s=10",
+      "id": "Bb4lFm8xj9Q",
+      "stock": 5
+    },
+    {
+      "name": "Nike Vomero 18",
+      "price": 20000,
+      "category": "footwear",
+      "specs": "Primary Use: Road running and long-distance trainingShoe Type: Neutral, maximum cushionMidsole: Double-stacked foam—ZoomX foam on top of ReactX foam for high responsivenessUpper: Breathable, engineered mesh with plush tongue and liningHeel-to-Toe Drop: 10mmWeight: Approx. 325 g / 11.5 oz (Men's US 10)Outsole: Podular traction layout engineered for smooth heel-to-toe transitionsSustainability: Made with at least 20% recycled content by weight",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI40PwPqii7g9YpwO_4xu9r25Ehi6e7TEhD3Y_t5e8kw&s",
+      "id": "z63K5QbiHh0",
+      "stock": 10
+    },
+    {
+      "name": "iPhone 15 Pro",
+      "price": 135000,
+      "category": "mobile",
+      "specs": "Chip: A17 Pro Bionic | Display: 6.1-inch Super Retina XDR OLED | Storage: 256GB | Camera: 48MP Main + 12MP Ultra-wide + 12MP Telephoto | Battery: Up to 23 hours video playback",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVzMymuNV7mD76ZTo1Nu1gtJ3OQC28yoE-ueRSJGA9_g&s=10",
+      "id": "p101",
+      "stock": 6
+    },
+    {
+      "name": "Samsung Galaxy S24 Ultra",
+      "price": 125000,
+      "category": "mobile",
+      "specs": "Processor: Snapdragon 8 Gen 3 | Display: 6.8-inch AMOLED 120Hz | RAM: 12GB | Storage: 256GB | Camera: 200MP + 50MP zoom | Battery: 5000mAh",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR59_EenTZBkhBBbYfVu7ALwyOJd_MmA7Sy2G2Cv2uMog&s=10",
+      "id": "p102",
+      "stock": 7
+    },
+    {
+      "name": "Sony WH-1000XM5 Headphones",
+      "price": 29999,
+      "category": "accessory",
+      "specs": "Noise Cancellation: Active | Battery: 30 hours | Connectivity: Bluetooth 5.2 | Features: Touch control, Alexa/Google Assistant",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUD4ITdL780Ae-IP-YX9tZnSOq2atG2LU2yneMXcIOgw&s",
+      "id": "p103",
+      "stock": 3
+    },
+    {
+      "name": "Apple MacBook Air M3",
+      "price": 145000,
+      "category": "laptop",
+      "specs": "Processor: Apple M3 Chip | Display: 13.6-inch Retina | RAM: 16GB | Storage: 512GB SSD | Battery: Up to 18 hours",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZzTZdz-LexwU0HNT2y1tzrL86JrFMXZVduJuGUzteXA&s=10",
+      "id": "p104",
+      "stock": 0
+    },
+    {
+      "name": "Dell XPS 15",
+      "price": 180000,
+      "category": "laptop",
+      "specs": "Processor: Intel Core i7 13th Gen | Display: 15.6-inch 4K OLED | RAM: 16GB | Storage: 1TB SSD | Graphics: RTX 4050",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT92Yas3MZhb5zH6nsy0Bx-x2nNIzsOMyTo9bmJrEqMpw&s",
+      "id": "p105",
+      "stock": 8
+    },
+    {
+      "name": "Adidas Ultraboost 23",
+      "price": 18000,
+      "category": "footwear",
+      "specs": "Type: Running shoes | Cushioning: Boost foam | Upper: Primeknit | Sole: Continental rubber outsole",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbYDcFixHzZf28HgvQA0FT9tTQyGpdqycYkOFyRcQ_LQ&s=10",
+      "id": "p106",
+      "stock": 8
+    },
+    {
+      "name": "Boat Rockerz 550 Headphones",
+      "price": 1999,
+      "category": "accessory",
+      "specs": "Driver: 50mm | Battery: 20 hours | Bluetooth: v5.0 | Features: Foldable, Lightweight",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAJB1s_-GmAX_cXBLXp3MRP_Bryh2nvqpqnRIJmuBqDQ&s=10",
+      "id": "p107",
+      "stock": 0
+    },
+    {
+      "name": "Canon EOS 1500D DSLR",
+      "price": 42000,
+      "category": "electronics",
+      "specs": "Sensor: 24.1MP APS-C | Lens: 18-55mm kit | Video: Full HD | Connectivity: Wi-Fi",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5GeHJ7L9mmLNfkEO3kz6PgPCtsrpMyadfSy2F7c_-zg&s=10",
+      "id": "p108",
+      "stock": 6
+    },
+    {
+      "name": "Sony PlayStation 5",
+      "price": 55000,
+      "category": "gaming",
+      "specs": "CPU: AMD Ryzen Zen 2 | GPU: RDNA 2 | Storage: 825GB SSD | Resolution: 4K gaming support",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY5nZDl0y3y_Wk1mKedVtm2JkZcZshGlweo9b8EPeRgg&s",
+      "id": "p109",
+      "stock": 7
+    },
+    {
+      "name": "Samsung 55-inch Smart TV",
+      "price": 65000,
+      "category": "electronics",
+      "specs": "Display: 4K UHD LED | Smart OS: Tizen | Features: HDR10+, Voice control, Netflix/Prime support",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4nsrpzEasObVdGCFRBOs3VtEsE6q3lNEYV7Q2-6g9Dg&s=10",
+      "id": "p110",
+      "stock": 10
+    },
+    {
+      "name": "Realme Narzo 70",
+      "price": 16000,
+      "category": "mobile",
+      "specs": "Processor: Dimensity 810 | RAM: 6GB | Storage: 128GB | Camera: 64MP | Battery: 5000mAh",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2iuYDRlBIdLCm0a5kN4OEpX66DzqQ6PGafPlIb6894A&s=10",
+      "id": "p111",
+      "stock": 9
+    },
+    {
+      "name": "HP Pavilion Gaming Laptop",
+      "price": 78000,
+      "category": "laptop",
+      "specs": "CPU: Ryzen 5 5600H | GPU: GTX 1650 | RAM: 8GB | Storage: 512GB SSD | Display: 144Hz",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI0PZB9v2GiKI63-J0O4l0WdT_DzCwL4iXXE3HK27_sA&s=10",
+      "id": "p112",
+      "stock": 7
+    },
+    {
+      "name": "Apple Watch Series 9",
+      "price": 45000,
+      "category": "wearable",
+      "specs": "Display: Always-on retina | Health: ECG, Blood oxygen | Battery: 18 hours | Connectivity: GPS + Cellular",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm8Qho3UECiWveykDTWAJUy_2uetb70B7o-V35eyju0g&s=10",
+      "id": "p113",
+      "stock": 8
+    },
+    {
+      "name": "OnePlus Nord CE3",
+      "price": 26000,
+      "category": "mobile",
+      "specs": "Processor: Snapdragon 782G | RAM: 8GB | Storage: 128GB | Camera: 50MP | Battery: 5000mAh",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa-7QX8oHeYJ7PmUgt-zdwtjzWXR8eqU9Th9srbg31Dg&s",
+      "id": "p114",
+      "stock": 7
+    },
+    {
+      "name": "LG Refrigerator 260L",
+      "price": 32000,
+      "category": "appliance",
+      "specs": "Capacity: 260L | Type: Double door | Cooling: Smart inverter | Features: Frost free",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8mjfz9rWshgll_KY1nX_dUnVeeUU-7FR-0tis3f-kcA&s",
+      "id": "p115",
+      "stock": 8
+    },
+    {
+      "name": "Samsung Galaxy Watch 6",
+      "price": 29999,
+      "specs": "Display: 1.5-inch Super AMOLED | Health: Heart rate, Sleep tracking, ECG | Battery: Up to 40 hours | Connectivity: Bluetooth, WiFi | Water Resistance: 5ATM",
+      "category": "wearable",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNdrcPQk55VsAn0zMFsQH51XqqNLy9p5IbFkegO1NKMg&s=10",
+      "id": "AWDA5weomlY",
+      "stock": 6
+    },
+    {
+      "name": "Levi's Men's Jeans",
+      "price": 3500,
+      "category": "fashion",
+      "specs": "Fit: Slim | Fabric: Denim | Wash: Dark Blue | Stretchable | Casual wear",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwg5e9ap0wvsKcxfDq1RRebCuNuCtDGfgNvPD8LZf6kw&s=10",
+      "id": "f201",
+      "stock": 6
+    },
+    {
+      "name": "Puma Sports T-Shirt",
+      "price": 1200,
+      "category": "fashion",
+      "specs": "Fabric: Dry-fit polyester | Ideal for gym and running | Lightweight & breathable",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT49mkjmKwKtwfYNh9nHbi4yP2AG6G9gtGUpnJok8ed_g&s=10",
+      "id": "f202",
+      "stock": 10
+    },
+    {
+      "name": "Wooden Study Table",
+      "price": 8000,
+      "category": "furniture",
+      "specs": "Material: Solid wood | Storage: 2 drawers | Suitable for home office",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSVCpzbBAGfCynuUC2FHaULIVzY9mU-wrPwnb3WHTL9g&s=10",
+      "id": "f203",
+      "stock": 6
+    },
+    {
+      "name": "Office Chair (Ergonomic)",
+      "price": 7000,
+      "category": "furniture",
+      "specs": "Adjustable height | Lumbar support | Mesh back | Swivel wheels",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVfCLhmCQ2cb6j7WxUtZTaEUkOuEIBCbD7dtQvQKEqYg&s=10s",
+      "id": "f204",
+      "stock": 6
+    },
+    {
+      "name": "Milton Water Bottle 1L",
+      "price": 499,
+      "category": "accessory",
+      "specs": "Capacity: 1 Litre | Steel body | Leak-proof | Keeps water cool",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7fxhbopDskfKgv89MTYAVxr7CJwwCsbkaLIB1PlaFig&s=10",
+      "id": "f205",
+      "stock": 10
+    },
+    {
+      "name": "Fastrack Sunglasses",
+      "price": 1500,
+      "category": "accessory",
+      "specs": "UV protection | Lightweight | Stylish frame | Unisex",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRviSLQPDj0hIGFv2zDy0pXOKseJCuwYSs_vC2Ggzcjhw&s=10",
+      "id": "f206",
+      "stock": 6
+    },
+    {
+      "name": "Nike Backpack",
+      "price": 2500,
+      "category": "accessory",
+      "specs": "Capacity: 25L | Water-resistant | Laptop compartment | Durable material",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQeYRzP_h_ls_1s6L6XM0a67A4nFsu3OKAH_CQQwBrCQ&s=10",
+      "id": "f207",
+      "stock": 6
+    },
+    {
+      "name": "Bedsheet Set (King Size)",
+      "price": 1800,
+      "category": "home",
+      "specs": "Cotton fabric | Includes bedsheet + 2 pillow covers | Soft and washable",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKU2YmlY7iZOoSr25Q2GD9eIEZBXTeq85uF2U5MqCFAg&s",
+      "id": "f208",
+      "stock": 6
+    },
+    {
+      "name": "Dinner Set (24 Pieces)",
+      "price": 3200,
+      "category": "home",
+      "specs": "Material: Ceramic | Microwave safe | Includes plates, bowls, spoons",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbpkASZgfQIwEUh7ReIUsS3h855hnJDEGgDPN5HWwKbA&s",
+      "id": "f209",
+      "stock": 8
+    },
+    {
+      "name": "Casio Wrist Watch",
+      "price": 4000,
+      "category": "accessory",
+      "specs": "Analog watch | Water-resistant | Steel strap | Long battery life",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEZgdQ_5e2pPfy61MpoPyGhWh6wZLrqg_uKTcj0R7rYQ&s",
+      "id": "f210",
+      "stock": 8
+    }
+  ],
+  "orders": [
+    {
+      "name": "Adidas Ultraboost 23",
+      "price": 18000,
+      "category": "footwear",
+      "specs": "Type: Running shoes | Cushioning: Boost foam | Upper: Primeknit | Sole: Continental rubber outsole",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbYDcFixHzZf28HgvQA0FT9tTQyGpdqycYkOFyRcQ_LQ&s=10",
+      "id": "M8YEUjYgItg",
+      "stock": 2,
+      "qty": 1,
+      "status": "Delivered",
+      "address": "flat-12,Dev Apartment,23/11 malaviya avenue,thiruvanmiyur chennai-600041",
+      "quantity": 1,
+      "orderDate": "2026-06-22T10:13:49.327Z",
+      "deliveryPerson": "Krishna",
+      "pickupPerson": null,
+      "invoice": {
+        "paymentMode": "upi",
+        "date": "22/6/2026, 3:43:49 pm",
+        "total": 18000
+      },
+      "timeline": [
+        {
+          "step": "Ordered",
+          "done": true
+        },
+        {
+          "step": "Shipped",
+          "done": true
+        },
+        {
+          "step": "Delivered",
+          "done": true
+        }
+      ],
+      "review": "god",
+      "rating": 5,
+      "userName": "Harsakrishna",
+      "userEmail": "harsa@gmail.com",
+      "deliveryId": "EMP123",
+      "reviewBy": "Harsakrishna",
+      "deliveryRating": 3
+    },
+    {
+      "name": "Apple MacBook Air M3",
+      "price": 145000,
+      "category": "laptop",
+      "specs": "Processor: Apple M3 Chip | Display: 13.6-inch Retina | RAM: 16GB | Storage: 512GB SSD | Battery: Up to 18 hours",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZzTZdz-LexwU0HNT2y1tzrL86JrFMXZVduJuGUzteXA&s=10",
+      "id": "DxzcQJQqUeQ",
+      "stock": 1,
+      "qty": 1,
+      "status": "Delivered",
+      "address": "flat-12,Dev Apartment,23/11 malaviya avenue,thiruvanmiyur chennai-600041",
+      "quantity": 1,
+      "orderDate": "2026-06-22T10:52:16.651Z",
+      "expectedDelivery": "2026-06-27T10:52:16.651Z",
+      "deliveryPerson": "Krishna",
+      "pickupPerson": null,
+      "invoice": {
+        "paymentMode": "cod",
+        "date": "22/6/2026, 4:22:16 pm",
+        "total": 145000
+      },
+      "timeline": [
+        {
+          "step": "Ordered",
+          "done": true
+        },
+        {
+          "step": "Shipped",
+          "done": true
+        },
+        {
+          "step": "Delivered",
+          "done": true
+        }
+      ],
+      "review": "",
+      "rating": 0,
+      "userName": "Harsakrishna",
+      "userEmail": "harsa@gmail.com",
+      "deliveryId": "EMP123",
+      "deliveryRating": 4
+    },
+    {
+      "name": "Gaming laptop",
+      "price": 90000,
+      "category": "laptop",
+      "specs": "Processor (CPU): Intel Core Ultra 7 255H (Up to 5.1GHz, 16 cores)Graphics (GPU): NVIDIA GeForce RTX 4060 (8GB GDDR6 VRAM, 140W max TGP with DLSS 3)Memory (RAM): 16GB DDR5-5600MHz (Dual-channel)Storage: 1TB PCIe Gen 4 NVMe SSD",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeJ-mLspi_Os_C_vj4cdHAEur9oxGbCk16EfGMS1RBAQ&s=10",
+      "id": "R4ulYIfT_lc",
+      "stock": 6,
+      "qty": 1,
+      "status": "Delivered",
+      "address": "flat-12,Dev Apartment,23/11 malaviya avenue,thiruvanmiyur chennai-600041",
+      "quantity": 1,
+      "orderDate": "2026-06-22T10:52:16.651Z",
+      "expectedDelivery": "2026-06-27T10:52:16.651Z",
+      "deliveryPerson": "Krishna",
+      "pickupPerson": null,
+      "invoice": {
+        "paymentMode": "cod",
+        "date": "22/6/2026, 4:22:16 pm",
+        "total": 90000
+      },
+      "timeline": [
+        {
+          "step": "Ordered",
+          "done": true
+        },
+        {
+          "step": "Shipped",
+          "done": true
+        },
+        {
+          "step": "Delivered",
+          "done": true
+        }
+      ],
+      "review": "",
+      "rating": 0,
+      "userName": "Harsakrishna",
+      "userEmail": "harsa@gmail.com",
+      "deliveryId": "EMP123",
+      "deliveryRating": 5
+    },
+    {
+      "name": "iPhone 15 Pro",
+      "price": 135000,
+      "category": "mobile",
+      "specs": "Chip: A17 Pro Bionic | Display: 6.1-inch Super Retina XDR OLED | Storage: 256GB | Camera: 48MP Main + 12MP Ultra-wide + 12MP Telephoto | Battery: Up to 23 hours video playback",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVzMymuNV7mD76ZTo1Nu1gtJ3OQC28yoE-ueRSJGA9_g&s=10",
+      "id": "qexqBGVid5M",
+      "stock": 9,
+      "qty": 1,
+      "status": "Delivered",
+      "address": "flat-12,Dev Apartment,23/11 malaviya avenue,thiruvanmiyur chennai-600041",
+      "quantity": 1,
+      "orderDate": "2026-06-22T10:56:40.420Z",
+      "expectedDelivery": "2026-06-27T10:56:40.420Z",
+      "deliveryPerson": "Krishna",
+      "pickupPerson": null,
+      "invoice": {
+        "paymentMode": "cod",
+        "date": "22/6/2026, 4:26:40 pm",
+        "total": 135000
+      },
+      "timeline": [
+        {
+          "step": "Ordered",
+          "done": true
+        },
+        {
+          "step": "Shipped",
+          "done": true
+        },
+        {
+          "step": "Delivered",
+          "done": true
+        }
+      ],
+      "review": "",
+      "rating": 0,
+      "userName": "Harsakrishna",
+      "userEmail": "harsa@gmail.com",
+      "deliveryId": "EMP123",
+      "deliveryRating": 5
+    },
+    {
+      "name": "Boat Rockerz 550 Headphones",
+      "price": 1999,
+      "category": "accessory",
+      "specs": "Driver: 50mm | Battery: 20 hours | Bluetooth: v5.0 | Features: Foldable, Lightweight",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAJB1s_-GmAX_cXBLXp3MRP_Bryh2nvqpqnRIJmuBqDQ&s=10",
+      "id": "BbtaShPt4hg",
+      "stock": 2,
+      "qty": 1,
+      "status": "Delivered",
+      "address": "flat-12,Dev Apartment,23/11 malaviya avenue,thiruvanmiyur chennai-600041",
+      "quantity": 1,
+      "orderDate": "2026-06-22T10:56:40.422Z",
+      "expectedDelivery": "2026-06-27T10:56:40.422Z",
+      "deliveryPerson": "Krishna",
+      "pickupPerson": null,
+      "invoice": {
+        "paymentMode": "cod",
+        "date": "22/6/2026, 4:26:40 pm",
+        "total": 1999
+      },
+      "timeline": [
+        {
+          "step": "Ordered",
+          "done": true
+        },
+        {
+          "step": "Shipped",
+          "done": true
+        },
+        {
+          "step": "Delivered",
+          "done": true
+        }
+      ],
+      "review": "",
+      "rating": 0,
+      "userName": "Harsakrishna",
+      "userEmail": "harsa@gmail.com",
+      "deliveryId": "EMP123",
+      "deliveryRating": 3
+    },
+    {
+      "name": "HP Pavilion Gaming Laptop",
+      "price": 78000,
+      "category": "laptop",
+      "specs": "CPU: Ryzen 5 5600H | GPU: GTX 1650 | RAM: 8GB | Storage: 512GB SSD | Display: 144Hz",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI0PZB9v2GiKI63-J0O4l0WdT_DzCwL4iXXE3HK27_sA&s=10",
+      "id": "MvoPFq2c8L0",
+      "stock": 2,
+      "qty": 1,
+      "status": "Delivered",
+      "address": "flat-12,Dev Apartment,23/11 malaviya avenue,thiruvanmiyur chennai-600041",
+      "quantity": 1,
+      "orderDate": "2026-06-23T05:57:56.965Z",
+      "expectedDelivery": "2026-06-28T05:57:56.964Z",
+      "deliveryPerson": "Krishna",
+      "pickupPerson": null,
+      "invoice": {
+        "paymentMode": "cod",
+        "date": "23/6/2026, 11:27:56 am",
+        "total": 78000
+      },
+      "paymentHistory": [
+        {
+          "mode": "cod",
+          "date": "23/6/2026, 11:27:56 am",
+          "amount": 78000
+        }
+      ],
+      "timeline": [
+        {
+          "step": "Ordered",
+          "done": true
+        },
+        {
+          "step": "Shipped",
+          "done": true
+        },
+        {
+          "step": "Delivered",
+          "done": true
+        }
+      ],
+      "review": "",
+      "rating": 0,
+      "userName": "Harsakrishna",
+      "userEmail": "harsa@gmail.com",
+      "deliveryId": "EMP123",
+      "deliveryRating": 5
+    },
+    {
+      "name": "OnePlus Nord CE3",
+      "price": 26000,
+      "category": "mobile",
+      "specs": "Processor: Snapdragon 782G | RAM: 8GB | Storage: 128GB | Camera: 50MP | Battery: 5000mAh",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa-7QX8oHeYJ7PmUgt-zdwtjzWXR8eqU9Th9srbg31Dg&s",
+      "id": "4ZeZbJQMnRk",
+      "stock": 2,
+      "qty": 1,
+      "status": "Delivered",
+      "address": "flat-12,Dev Apartment,23/11 malaviya avenue,thiruvanmiyur chennai-600041",
+      "quantity": 1,
+      "orderDate": "2026-06-23T05:57:56.966Z",
+      "expectedDelivery": "2026-06-28T05:57:56.966Z",
+      "deliveryPerson": "Krishna",
+      "pickupPerson": null,
+      "invoice": {
+        "paymentMode": "cod",
+        "date": "23/6/2026, 11:27:56 am",
+        "total": 26000
+      },
+      "paymentHistory": [
+        {
+          "mode": "cod",
+          "date": "23/6/2026, 11:27:56 am",
+          "amount": 26000
+        }
+      ],
+      "timeline": [
+        {
+          "step": "Ordered",
+          "done": true
+        },
+        {
+          "step": "Shipped",
+          "done": true
+        },
+        {
+          "step": "Delivered",
+          "done": true
+        }
+      ],
+      "review": "",
+      "rating": 0,
+      "userName": "Harsakrishna",
+      "userEmail": "harsa@gmail.com",
+      "deliveryId": "EMP123",
+      "deliveryRating": 5
+    },
+    {
+      "name": "Sony WH-1000XM5 Headphones",
+      "price": 29999,
+      "category": "accessory",
+      "specs": "Noise Cancellation: Active | Battery: 30 hours | Connectivity: Bluetooth 5.2 | Features: Touch control, Alexa/Google Assistant",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUD4ITdL780Ae-IP-YX9tZnSOq2atG2LU2yneMXcIOgw&s",
+      "id": "bWcThbCIYJU",
+      "stock": 2,
+      "qty": 1,
+      "status": "Delivered",
+      "address": "flat-12,Dev Apartment,23/11 malaviya avenue,thiruvanmiyur chennai-600041",
+      "quantity": 1,
+      "orderDate": "2026-06-23T05:58:41.030Z",
+      "expectedDelivery": "2026-06-28T05:58:41.030Z",
+      "deliveryPerson": "Krishna",
+      "pickupPerson": null,
+      "invoice": {
+        "paymentMode": "upi",
+        "date": "23/6/2026, 11:28:41 am",
+        "total": 29999
+      },
+      "paymentHistory": [
+        {
+          "mode": "upi",
+          "date": "23/6/2026, 11:28:41 am",
+          "amount": 29999
+        }
+      ],
+      "timeline": [
+        {
+          "step": "Ordered",
+          "done": true
+        },
+        {
+          "step": "Shipped",
+          "done": true
+        },
+        {
+          "step": "Delivered",
+          "done": true
+        }
+      ],
+      "review": "",
+      "rating": 0,
+      "userName": "Harsakrishna",
+      "userEmail": "harsa@gmail.com",
+      "deliveryId": "EMP123",
+      "deliveryRating": 4
+    },
+    {
+      "name": "Gaming laptop",
+      "price": 90000,
+      "category": "laptop",
+      "specs": "Processor (CPU): Intel Core Ultra 7 255H (Up to 5.1GHz, 16 cores)Graphics (GPU): NVIDIA GeForce RTX 4060 (8GB GDDR6 VRAM, 140W max TGP with DLSS 3)Memory (RAM): 16GB DDR5-5600MHz (Dual-channel)Storage: 1TB PCIe Gen 4 NVMe SSD",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeJ-mLspi_Os_C_vj4cdHAEur9oxGbCk16EfGMS1RBAQ&s=10",
+      "id": "_drw4V-rdr0",
+      "stock": 6,
+      "qty": 1,
+      "status": "Cancelled",
+      "address": "flat-12,Dev Apartment,23/11 malaviya avenue,thiruvanmiyur chennai-600041",
+      "quantity": 1,
+      "orderDate": "2026-06-25T10:11:53.719Z",
+      "expectedDelivery": "2026-06-30T10:11:53.719Z",
+      "deliveryPerson": null,
+      "pickupPerson": null,
+      "invoice": {
+        "paymentMode": "cod",
+        "date": "25/6/2026, 3:41:53 pm",
+        "total": 90000
+      },
+      "paymentHistory": [
+        {
+          "mode": "cod",
+          "date": "25/6/2026, 3:41:53 pm",
+          "amount": 90000
+        }
+      ],
+      "timeline": [
+        {
+          "step": "Ordered",
+          "done": true
+        },
+        {
+          "step": "Shipped",
+          "done": false
+        },
+        {
+          "step": "Delivered",
+          "done": false
+        }
+      ],
+      "review": "",
+      "rating": 0,
+      "userName": "Harsakrishna",
+      "userEmail": "harsa@gmail.com"
+    },
+    {
+      "name": "Apple MacBook Air M3",
+      "price": 145000,
+      "category": "laptop",
+      "specs": "Processor: Apple M3 Chip | Display: 13.6-inch Retina | RAM: 16GB | Storage: 512GB SSD | Battery: Up to 18 hours",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZzTZdz-LexwU0HNT2y1tzrL86JrFMXZVduJuGUzteXA&s=10",
+      "id": "Tz9qDsJIaHY",
+      "stock": 0,
+      "qty": 1,
+      "status": "Cancelled",
+      "address": "flat-12,Dev Apartment,23/11 malaviya avenue,thiruvanmiyur chennai-600041",
+      "quantity": 1,
+      "orderDate": "2026-06-25T10:25:33.717Z",
+      "expectedDelivery": "2026-06-30T10:25:33.717Z",
+      "deliveryPerson": null,
+      "pickupPerson": null,
+      "invoice": {
+        "paymentMode": "cod",
+        "date": "25/6/2026, 3:55:33 pm",
+        "total": 145000
+      },
+      "paymentHistory": [
+        {
+          "mode": "cod",
+          "date": "25/6/2026, 3:55:33 pm",
+          "amount": 145000
+        }
+      ],
+      "timeline": [
+        {
+          "step": "Ordered",
+          "done": true
+        },
+        {
+          "step": "Shipped",
+          "done": false
+        },
+        {
+          "step": "Delivered",
+          "done": false
+        }
+      ],
+      "review": "",
+      "rating": 0,
+      "userName": "Harsakrishna",
+      "userEmail": "harsa@gmail.com"
+    },
+    {
+      "name": "iPhone 15 Pro",
+      "price": 135000,
+      "category": "mobile",
+      "specs": "Chip: A17 Pro Bionic | Display: 6.1-inch Super Retina XDR OLED | Storage: 256GB | Camera: 48MP Main + 12MP Ultra-wide + 12MP Telephoto | Battery: Up to 23 hours video playback",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVzMymuNV7mD76ZTo1Nu1gtJ3OQC28yoE-ueRSJGA9_g&s=10",
+      "id": "4xdKAl1WdQs",
+      "stock": 8,
+      "qty": 1,
+      "status": "Cancelled",
+      "address": "flat-12,Dev Apartment,23/11 malaviya avenue,thiruvanmiyur chennai-600041",
+      "quantity": 1,
+      "orderDate": "2026-06-25T10:26:16.766Z",
+      "expectedDelivery": "2026-06-30T10:26:16.766Z",
+      "deliveryPerson": null,
+      "pickupPerson": null,
+      "invoice": {
+        "paymentMode": "cod",
+        "date": "25/6/2026, 3:56:16 pm",
+        "total": 135000
+      },
+      "paymentHistory": [
+        {
+          "mode": "cod",
+          "date": "25/6/2026, 3:56:16 pm",
+          "amount": 135000
+        }
+      ],
+      "timeline": [
+        {
+          "step": "Ordered",
+          "done": true
+        },
+        {
+          "step": "Shipped",
+          "done": false
+        },
+        {
+          "step": "Delivered",
+          "done": false
+        }
+      ],
+      "review": "",
+      "rating": 0,
+      "userName": "Harsakrishna",
+      "userEmail": "harsa@gmail.com"
+    },
+    {
+      "name": "Canon EOS 1500D DSLR",
+      "price": 42000,
+      "category": "electronics",
+      "specs": "Sensor: 24.1MP APS-C | Lens: 18-55mm kit | Video: Full HD | Connectivity: Wi-Fi",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5GeHJ7L9mmLNfkEO3kz6PgPCtsrpMyadfSy2F7c_-zg&s=10",
+      "id": "g8iJ4ks8KrI",
+      "stock": 7,
+      "qty": 1,
+      "status": "Delivered",
+      "address": "flat-12,Dev Apartment,23/11 malaviya avenue,thiruvanmiyur chennai-600041",
+      "quantity": 1,
+      "orderDate": "2026-06-26T06:15:50.935Z",
+      "deliveryRating": 0,
+      "expectedDelivery": "2026-07-01T06:15:50.935Z",
+      "deliveryPerson": "Krishna",
+      "pickupPerson": null,
+      "invoice": {
+        "paymentMode": "cod",
+        "date": "26/6/2026, 11:45:50 am",
+        "total": 42000
+      },
+      "paymentHistory": [
+        {
+          "mode": "cod",
+          "date": "26/6/2026, 11:45:50 am",
+          "amount": 42000
+        }
+      ],
+      "timeline": [
+        {
+          "step": "Ordered",
+          "done": true
+        },
+        {
+          "step": "Shipped",
+          "done": true
+        },
+        {
+          "step": "Delivered",
+          "done": true
+        }
+      ],
+      "review": "",
+      "rating": 0,
+      "userName": "Harsakrishna",
+      "userEmail": "harsa@gmail.com",
+      "deliveryId": "EMP123"
+    },
+    {
+      "name": "Sony WH-1000XM5 Headphones",
+      "price": 29999,
+      "category": "accessory",
+      "specs": "Noise Cancellation: Active | Battery: 30 hours | Connectivity: Bluetooth 5.2 | Features: Touch control, Alexa/Google Assistant",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUD4ITdL780Ae-IP-YX9tZnSOq2atG2LU2yneMXcIOgw&s",
+      "id": "5Oed7eKyZS8",
+      "stock": 4,
+      "qty": 1,
+      "status": "Delivered",
+      "address": "flat-12,Dev Apartment,23/11 malaviya avenue,thiruvanmiyur chennai-600041",
+      "quantity": 1,
+      "orderDate": "2026-06-26T07:10:48.699Z",
+      "deliveryRating": 4,
+      "expectedDelivery": "2026-07-01T07:10:48.699Z",
+      "deliveryPerson": "jsdbdbfsd",
+      "pickupPerson": null,
+      "invoice": {
+        "paymentMode": "cod",
+        "date": "26/6/2026, 12:40:48 pm",
+        "total": 29999
+      },
+      "paymentHistory": [
+        {
+          "mode": "cod",
+          "date": "26/6/2026, 12:40:48 pm",
+          "amount": 29999
+        }
+      ],
+      "timeline": [
+        {
+          "step": "Ordered",
+          "done": true
+        },
+        {
+          "step": "Shipped",
+          "done": true
+        },
+        {
+          "step": "Delivered",
+          "done": true
+        }
+      ],
+      "review": "",
+      "rating": 0,
+      "userName": "Harsakrishna",
+      "userEmail": "harsa@gmail.com"
+    },
+    {
+      "name": "iPhone 15 Pro",
+      "price": 135000,
+      "category": "mobile",
+      "specs": "Chip: A17 Pro Bionic | Display: 6.1-inch Super Retina XDR OLED | Storage: 256GB | Camera: 48MP Main + 12MP Ultra-wide + 12MP Telephoto | Battery: Up to 23 hours video playback",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVzMymuNV7mD76ZTo1Nu1gtJ3OQC28yoE-ueRSJGA9_g&s=10",
+      "id": "VSlpunnmxh4",
+      "stock": 7,
+      "qty": 1,
+      "status": "Pending",
+      "address": "flat-12,Dev Apartment,23/11 malaviya avenue,thiruvanmiyur chennai-600041",
+      "quantity": 1,
+      "orderDate": "2026-06-26T07:15:23.184Z",
+      "deliveryRating": 0,
+      "expectedDelivery": "2026-07-01T07:15:23.184Z",
+      "deliveryPerson": null,
+      "pickupPerson": null,
+      "invoice": {
+        "paymentMode": "upi",
+        "date": "26/6/2026, 12:45:23 pm",
+        "total": 135000
+      },
+      "paymentHistory": [
+        {
+          "mode": "upi",
+          "date": "26/6/2026, 12:45:23 pm",
+          "amount": 135000
+        }
+      ],
+      "timeline": [
+        {
+          "step": "Ordered",
+          "done": true
+        },
+        {
+          "step": "Shipped",
+          "done": false
+        },
+        {
+          "step": "Delivered",
+          "done": false
+        }
+      ],
+      "review": "",
+      "rating": 0,
+      "userName": "Harsakrishna",
+      "userEmail": "harsa@gmail.com"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
