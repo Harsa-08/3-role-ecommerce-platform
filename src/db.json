@@ -75,6 +75,19 @@
       "question": "sdsfsafdaad",
       "answer": "addfadffdaafds",
       "id": "qjjRC7XtiCI"
+    },
+    {
+      "id": "e0ca",
+      "name": "hkrishna",
+      "dob": "2008-02-19",
+      "gender": "male",
+      "address": "dasfasdfawesfaaaaaa",
+      "email": "hk@gmail.com",
+      "phone": "9849658646",
+      "password": "Harsa@123",
+      "role": "user",
+      "question": "pet",
+      "answer": "dog"
     }
   ],
   "products": [
