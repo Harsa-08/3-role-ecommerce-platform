@@ -88,6 +88,19 @@
       "role": "user",
       "question": "pet",
       "answer": "dog"
+    },
+    {
+      "id": "6bd1",
+      "name": "Harsakrishna V",
+      "dob": "2007-02-20",
+      "gender": "male",
+      "address": "Malavia Ave",
+      "email": "kg@gmail.com",
+      "phone": "9785756876",
+      "password": "Kg@123",
+      "role": "user",
+      "question": "pet",
+      "answer": "dog"
     }
   ],
   "products": [
@@ -116,7 +129,7 @@
       "specs": "Chip: A17 Pro Bionic | Display: 6.1-inch Super Retina XDR OLED | Storage: 256GB | Camera: 48MP Main + 12MP Ultra-wide + 12MP Telephoto | Battery: Up to 23 hours video playback",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVzMymuNV7mD76ZTo1Nu1gtJ3OQC28yoE-ueRSJGA9_g&s=10",
       "id": "p101",
-      "stock": 6
+      "stock": 5
     },
     {
       "name": "Samsung Galaxy S24 Ultra",
@@ -949,13 +962,13 @@
       "id": "VSlpunnmxh4",
       "stock": 7,
       "qty": 1,
-      "status": "Pending",
+      "status": "Delivered",
       "address": "flat-12,Dev Apartment,23/11 malaviya avenue,thiruvanmiyur chennai-600041",
       "quantity": 1,
       "orderDate": "2026-06-26T07:15:23.184Z",
       "deliveryRating": 0,
       "expectedDelivery": "2026-07-01T07:15:23.184Z",
-      "deliveryPerson": null,
+      "deliveryPerson": "Krishna",
       "pickupPerson": null,
       "invoice": {
         "paymentMode": "upi",
@@ -976,6 +989,55 @@
         },
         {
           "step": "Shipped",
+          "done": true
+        },
+        {
+          "step": "Delivered",
+          "done": true
+        }
+      ],
+      "review": "",
+      "rating": 0,
+      "userName": "Harsakrishna",
+      "userEmail": "harsa@gmail.com",
+      "deliveryId": "EMP123"
+    },
+    {
+      "id": 1786631369373.4675,
+      "name": "iPhone 15 Pro",
+      "price": 135000,
+      "category": "mobile",
+      "specs": "Chip: A17 Pro Bionic | Display: 6.1-inch Super Retina XDR OLED | Storage: 256GB | Camera: 48MP Main + 12MP Ultra-wide + 12MP Telephoto | Battery: Up to 23 hours video playback",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVzMymuNV7mD76ZTo1Nu1gtJ3OQC28yoE-ueRSJGA9_g&s=10",
+      "stock": 6,
+      "qty": 1,
+      "status": "Pending",
+      "address": "flat-12 dev apartment Malavia Ave chennai -600041",
+      "quantity": 1,
+      "orderDate": "2026-08-13T14:29:29.373Z",
+      "deliveryRating": 0,
+      "expectedDelivery": "2026-08-18T14:29:29.373Z",
+      "deliveryPerson": null,
+      "pickupPerson": null,
+      "invoice": {
+        "paymentMode": "cod",
+        "date": "8/13/2026, 7:59:29 PM",
+        "total": 135000
+      },
+      "paymentHistory": [
+        {
+          "mode": "cod",
+          "date": "8/13/2026, 7:59:29 PM",
+          "amount": 135000
+        }
+      ],
+      "timeline": [
+        {
+          "step": "Ordered",
+          "done": true
+        },
+        {
+          "step": "Shipped",
           "done": false
         },
         {
@@ -985,8 +1047,8 @@
       ],
       "review": "",
       "rating": 0,
-      "userName": "Harsakrishna",
-      "userEmail": "harsa@gmail.com"
+      "userName": "Harsakrishna V",
+      "userEmail": "kg@gmail.com"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
