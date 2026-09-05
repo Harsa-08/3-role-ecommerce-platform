@@ -2,13 +2,12 @@ import { useState, useEffect } from "react";
 import { useLanguage } from "./Language";
 import "./index.css";
 
-// Configure this value in the deployment environment.  Keeping the API URL
-// outside the source code lets the same build run locally and in production.
-const API_URL = (import.meta.env.VITE_API_URL || "http://localhost:3001").replace(/\/$/, "");
-const LOCAL_API_URL = "http://localhost:3001";
+// Configure the API base URL. In production (Vercel) we use the relative /api path.
+// Locally we fallback to the json-server running on port 3001.
+const API_URL = import.meta.env.PROD ? "/api" : (import.meta.env.VITE_API_URL || "http://localhost:3001").replace(/\/$/, "");
 const fetch = (resource, options) => {
-  const url = typeof resource === "string" && resource.startsWith(LOCAL_API_URL)
-    ? resource.replace(LOCAL_API_URL, API_URL)
+  const url = typeof resource === "string" && resource.startsWith("http://localhost:3001")
+    ? resource.replace("http://localhost:3001", API_URL)
     : resource;
 
   return window.fetch(url, options);
