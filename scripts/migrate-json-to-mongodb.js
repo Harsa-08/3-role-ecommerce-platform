@@ -24,7 +24,11 @@ try {
         if (doc.answer && !String(doc.answer).startsWith("scrypt$")) doc.answerHash = await hash(doc.answer);
         delete doc.password; delete doc.answer;
       }
-      await collection.updateOne({ id: doc.id }, { $set: doc }, { upsert: true });
+      if (name === "users") {
+        await collection.updateOne({ id: doc.id }, { $set: doc, $unset: { password: "", answer: "" } }, { upsert: true });
+      } else {
+        await collection.updateOne({ id: doc.id }, { $set: doc }, { upsert: true });
+      }
       count++;
     }
     console.log(`Upserted ${count} ${name}`);
