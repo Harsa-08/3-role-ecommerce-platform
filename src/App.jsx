@@ -1051,10 +1051,7 @@ function Profile({ role, userData, orders = [] }) {
                 setShowPasswordChange(false);
               }).catch(() => alert("Password update failed"));
 
-              // ✅ reset UI
-              setCurrentPass("");
-              setNewPass("");
-              setShowPasswordChange(false);
+
             }}
           >
             Update Password
