@@ -1026,12 +1026,6 @@ function Profile({ role, userData, orders = [] }) {
             className="btn btn-green"
             onClick={() => {
 
-              // ✅ check current password
-              if (currentPass !== userData.password) {
-                alert("❌ Incorrect current password");
-                return;
-              }
-
               // ✅ validate new password
               if (newPass.length < 6) {
                 alert("❌ Minimum 6 characters required");
@@ -1043,18 +1037,19 @@ function Profile({ role, userData, orders = [] }) {
                 return;
               }
 
-              // ✅ update backend
-              fetch(`http://localhost:3001/users/${userData.id}`, {
-                method: "PATCH",
+              // Verify and update the password only on the server.
+              fetch(`${API_URL}/auth/change-password`, {
+                method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ password: newPass })
-              });
-
-              // ✅ update frontend
-              const updatedUser = { ...userData, password: newPass };
-              localStorage.setItem("userData", JSON.stringify(updatedUser));
-
-              alert("✅ Password updated");
+                body: JSON.stringify({ id: userData.id, currentPassword: currentPass, newPassword: newPass })
+              }).then(async (res) => {
+                const result = await res.json();
+                if (!res.ok) { alert(result.error || "Password update failed"); return; }
+                alert("✅ Password updated");
+                setCurrentPass("");
+                setNewPass("");
+                setShowPasswordChange(false);
+              }).catch(() => alert("Password update failed"));
 
               // ✅ reset UI
               setCurrentPass("");
@@ -2150,15 +2145,14 @@ function Auth({ setRole, setPage, setUserEmail, setUserAddress, setUserData }) {
       alert("❌ Invalid email format");
       return;
     }
-    const res = await fetch("http://localhost:3001/users");
-    const data = await res.json();
-    const user = data.find(
-      (u) =>
-        (u.email === email || u.phone === email) &&
-        u.password === password
-    );
-    if (!user) {
-      alert("❌ Invalid credentials");
+    const res = await fetch(`${API_URL}/auth/login`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ identity: email, password })
+    });
+    const user = await res.json();
+    if (!res.ok) {
+      alert(user.error || "❌ Invalid credentials");
       return;
     }
     setUserData(user);
@@ -2173,29 +2167,31 @@ function Auth({ setRole, setPage, setUserEmail, setUserAddress, setUserData }) {
     if (user.role === "employee") setPage("employee");
   };
   const handleGetQuestion = async () => {
-    const res = await fetch("http://localhost:3001/users");
-    const users = await res.json();
-    const user = users.find((u) => u.email === email);
-    if (!user) {
-      setMessage("User not found");
+    const res = await fetch(`${API_URL}/auth/question?email=${encodeURIComponent(email)}`);
+    const data = await res.json();
+    if (!res.ok) {
+      setMessage(data.error || "User not found");
       return;
     }
-    setFoundUser(user);
+    setFoundUser(data);
     setMessage("");
   };
-  const handleVerifyAnswer = () => {
-    if (
-      enteredAnswer.toLowerCase() !==
-      foundUser.answer.toLowerCase()
-    ) {
-      setMessage("❌ Wrong answer");
+  const handleVerifyAnswer = async () => {
+    const res = await fetch(`${API_URL}/auth/verify-answer`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email: foundUser.email, answer: enteredAnswer })
+    });
+    const user = await res.json();
+    if (!res.ok) {
+      setMessage(user.error || "❌ Wrong answer");
       return;
     }
-    setUserEmail(foundUser.email);
-    setRole(foundUser.role);
-    if (foundUser.role === "user") setPage("home");
-    if (foundUser.role === "admin") setPage("admin");
-    if (foundUser.role === "employee") setPage("employee");
+    setUserEmail(user.email);
+    setRole(user.role);
+    if (user.role === "user") setPage("home");
+    if (user.role === "admin") setPage("admin");
+    if (user.role === "employee") setPage("employee");
   };
   return (
     <div className="auth-container">
