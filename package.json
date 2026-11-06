@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "api": "json-server --watch src/db.json --port 3001",
+    "api": "node api/dev.js",
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "start": "vite preview --host 0.0.0.0"
+    "start": "vite preview --host 0.0.0.0",
+    "migrate:mongodb": "node scripts/migrate-json-to-mongodb.js"
   },
   "dependencies": {
     "dotenv": "^17.4.2",
